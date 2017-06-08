@@ -13,6 +13,7 @@
 		569656961EE91D7B0028A933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569656941EE91D7B0028A933 /* Main.storyboard */; };
 		569656981EE91D7B0028A933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569656971EE91D7B0028A933 /* Assets.xcassets */; };
 		5696569B1EE91D7B0028A933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569656991EE91D7B0028A933 /* LaunchScreen.storyboard */; };
+		569656A41EE92F630028A933 /* NSString+FitSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 569656A31EE92F630028A933 /* NSString+FitSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		569656971EE91D7B0028A933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5696569A1EE91D7B0028A933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5696569C1EE91D7B0028A933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569656A21EE92F630028A933 /* NSString+FitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FitSize.h"; sourceTree = "<group>"; };
+		569656A31EE92F630028A933 /* NSString+FitSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FitSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				5696568F1EE91D7B0028A933 /* AppDelegate.m */,
 				569656911EE91D7B0028A933 /* ViewController.h */,
 				569656921EE91D7B0028A933 /* ViewController.m */,
+				569656A21EE92F630028A933 /* NSString+FitSize.h */,
+				569656A31EE92F630028A933 /* NSString+FitSize.m */,
 				569656941EE91D7B0028A933 /* Main.storyboard */,
 				569656971EE91D7B0028A933 /* Assets.xcassets */,
 				569656991EE91D7B0028A933 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				569656931EE91D7B0028A933 /* ViewController.m in Sources */,
 				569656901EE91D7B0028A933 /* AppDelegate.m in Sources */,
+				569656A41EE92F630028A933 /* NSString+FitSize.m in Sources */,
 				5696568D1EE91D7B0028A933 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
